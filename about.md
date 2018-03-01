@@ -2,33 +2,33 @@
 title: About
 layout: page
 ---
-[Profile Image]({{ site.url }}/{{ site.picture }})
+[Insert Profile Image Counsel]({{ site.url }}/{{ site.picture }})
 
-<p>Design the About Page</p>
+<p>Working Southern California Since 1990</p>
 
 <h2>Skills</h2>
 
 <ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
+	<li>Hard Landscaping</li>
+	<li>Blocks and Walls</li>
+	<li>Landscape Design</li>
+	<li>Trellis</li>
+	<li>Pools</li>
+	<li>Water System</li>
+	<li>Tiles</li>
+	<li>Stones</li>
+	<li>Removals</li>
+	<li>Deconstruction</li>
+	<li>Legal Paperworks</li>
+	<li>Abiding City Standards</li>
+	<li>Pavements</li>
 </ul>
 
 <h2>Projects</h2>
 
 <ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
+	<li><a href="https://github.com/">Fall</a></li>
+	<li><a href="https://github.com/">Summer</a></li>
+	<li><a href="https://github.com/">Spring</a></li>
+	<li><a href="https://github.com/">Winter</a></li>
 </ul>
