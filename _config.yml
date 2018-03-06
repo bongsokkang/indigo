@@ -3,12 +3,12 @@ name: Kang Landscaping
 bio: Landscaping throughout Southern Calfornia
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: Los Angeles Southern California Landscape Design Ka Kyoung Landscaping
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: false
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -16,7 +16,6 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://koppl.in/indigo
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -57,13 +56,13 @@ authors:
         name: John Doe
         bio: A Man who travels the world eating noodles
         external-image: false
-        picture: assets/images/profile.jpg
+        picture: false
         twitter: johndoe
     jamesfoster:
         name: James Foster
         bio: A Man who develops software with coffee
         external-image: false
-        picture: assets/images/james.jpg
+        picture: false
         twitter: jamesfoster
 
 # do you want a larger site? change the option below

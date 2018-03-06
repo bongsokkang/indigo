@@ -1,15 +1,15 @@
 ---
-title: "Markdown Extra Components"
+title: "season1"
 layout: post
 date: 2016-02-24 22:48
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
-- markdown
-- components
+- Ka Kyoung Landscaping
+- thoughout los Angeles best KlebsiellaLandscape
 - extra
 category: blog
-author: jamesfoster
+author: Chung Kang
 description: Markdown summary with different options
 # jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 ---
