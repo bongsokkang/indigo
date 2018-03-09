@@ -1,17 +1,47 @@
 ---
-layout: page
-title: Projects
-cover: assets/images/james.jpg
+layout: page1
+title: portfolio
+permalink: /projects/
 ---
-<section class="list">
-    {% for post in site.posts %}
-        {% if post.projects %}
-            <div class="item {% if post.star %}star{% endif %}">
-                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-                    <h3 class="title">{{ post.title }}</h3>
-                </a>
-            </div>
-        {% endif %}
-    {% endfor %}
-</section>
+
+{% for project in site.posts %}
+
+{% if project.redirect %}
+<div class="project">
+    <div class="thumbnail">
+        <a href="{{ project.redirect }}" target="_blank">
+        {% if project.img %}
+        <img class="thumbnail" src="{{ project.img }}"/>
+        {% else %}
+        <div class="thumbnail blankbox"></div>
+        {% endif %}    
+        <span>
+            <h1>{{ project.title }}</h1>
+            <br/>
+            <p>{{ project.description }}</p>
+        </span>
+        </a>
+    </div>
+</div>
+{% else %}
+
+<div class="project ">
+    <div class="thumbnail">
+        <a href="{{ site.baseurl }}{{ project.url }}">
+        {% if project.img %}
+        <img class="thumbnail" src="{{ project.img }}"/>
+        {% else %}
+        <div class="thumbnail blankbox"></div>
+        {% endif %}    
+        <span>
+            <h1>{{ project.title }}</h1>
+            <br/>
+            <p>{{ project.description }}</p>
+        </span>
+        </a>
+    </div>
+</div>
+
+{% endif %}
+
+{% endfor %}
