@@ -11,6 +11,19 @@ description: Los Angeles Southern California Landscape Design Ka Kyoung Landscap
 external-image: false
 picture: false
 
+
+
+# Pagination
+paginate: 15
+paginate_path: "/blog/page:num/"
+
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+
+
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
