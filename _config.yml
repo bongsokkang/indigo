@@ -1,3 +1,9 @@
+
+image_fulls_loc: "/photography/images/fulls"
+image_thumbs_loc: "/photography/images/thumbs"
+
+
+
 # main text of home
 name: Ka Kyoung Landscaping
 bio: Landscaping throughout Southern Calfornia
@@ -90,6 +96,8 @@ width: normal
 
 # if you don't need projects, comment the *projects* configs below
 projects: true
+
+photography: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
