@@ -278,6 +278,8 @@ DEPENDENCIES
   jekyll-admin
   jekyll-compose
   jekyll-paginate
+  jekyll-seo-tag
+  jekyll-sitemap
   rake (~> 12.3.0)
 
 BUNDLED WITH

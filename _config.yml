@@ -131,7 +131,9 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-paginate
   - jekyll-admin
+  - jekyll-sitemap
 
 jekyll-mentions:
     base_url: https://github.com
