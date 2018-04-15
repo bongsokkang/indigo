@@ -4,14 +4,14 @@ layout: page
 ---
 [Insert Profile Image Counsel]({{ site.url }}/{{ site.picture }})
 
-<p>Working Southern California Since 1990</p>
+<p>KaKyoung Landscaping Working Southern California Since 1990</p>
 
 <h2>Skills</h2>
 
 <ul class="skill-list">
-	<li>Hard Landscaping</li>
-	<li>Blocks and Walls</li>
-	<li>Landscape Design</li>
+	<li>Los Angeles Hard Landscaping</li>
+	<li>Los Angeles Blocks and Walls</li>
+	<li>Los Angeles Landscape Design</li>
 	<li>Trellis</li>
 	<li>Pools</li>
 	<li>Water System</li>
